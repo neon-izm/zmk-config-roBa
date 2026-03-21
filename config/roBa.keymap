@@ -193,10 +193,10 @@
 
         MOUSE {
             bindings = <
-&to 0   &to 0           &to 0           &to 0            &to 0                       &trans  &trans             &trans             &trans            &trans
-&to 0   &to 0           &to 0           &to 0            &to 0   &to 0       &trans  &trans             &mkp MB1           &mkp MB3          &mkp MB2        &trans
-&to 0   &to 0           &to 0           &to 0            &to 0   &to 0       &trans  &trans             &kp LEFT_SHIFT     &kp LEFT_CONTROL  &kp LEFT_ALT    &trans
-&to 0   &to 0           &to 0           &mo 5            &to 0   &to 0       &trans  &trans                                                 &trans
+&to 0   &to 0           &to 0           &to 0            &to 0                             &trans  &trans             &trans             &trans            &trans
+&to 0   &to 0           &to 0           &to 0            &to 0   &kp LEFT_WIN      &trans  &trans             &mkp MB1           &mkp MB3          &mkp MB2        &trans
+&to 0   &to 0           &to 0           &to 0            &to 0   &to 0             &trans  &trans             &kp LEFT_SHIFT     &kp LEFT_CONTROL  &kp LEFT_ALT    &trans
+&kp LCTRL &kp LEFT_SHIFT &kp LEFT_ALT  &mo 5            &lt_to_layer_0 2 SPACE  &mt LG(LS(S)) ESCAPE  &trans  &trans                                               &trans
             >;
         };
 
