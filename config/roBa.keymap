@@ -187,7 +187,7 @@
 &kp ESCAPE      &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)       &kp PAGE_UP                 &kp HOME       &kp UP_ARROW        &kp END            &kp LC(HOME)  &kp DELETE
 &kp LEFT_SHIFT  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp PAGE_DOWN  &kp LEFT_ALT  &kp LC(LEFT_ARROW)  &kp DOWN_ARROW    &kp LC(RIGHT_ARROW)  &kp PAGE_DOWN  &kp LC(END)  &kp BACKSPACE
 &trans          &kp HOME         &trans          &kp END           &trans         &trans        &trans              &kp LS(HOME)      &trans         &kp LS(END)     &trans        &trans
-&trans          &trans           &trans          &trans            &trans         &trans        &trans                                                   &trans
+&trans          &trans           &trans          &trans            &trans         &trans        &trans              &trans                                               &trans
             >;
         };
 
