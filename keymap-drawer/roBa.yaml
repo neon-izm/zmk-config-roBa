@@ -192,7 +192,7 @@ layers:
   - {t: default, h: toggle}
   - {t: default, h: toggle}
   - {t: default, h: toggle}
-  - {t: default, h: toggle}
+  - LEFT WIN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
@@ -211,12 +211,12 @@ layers:
   - LEFT CONTROL
   - LEFT ALT
   - {t: ▽, type: trans}
-  - {t: default, h: toggle}
-  - {t: default, h: toggle}
-  - {t: default, h: toggle}
+  - LCTRL
+  - LEFT SHIFT
+  - LEFT ALT
   - SCROLL
-  - {t: default, h: toggle}
-  - {t: default, h: toggle}
+  - {t: '&to_layer_0 SPACE', h: NUM}
+  - {t: ESCAPE, h: Gui+Sft+S}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
