@@ -47,9 +47,9 @@ layers:
   FUNCTION:
   - '!'
   - '"'
-  - JP HASH
-  - JP DOLLAR
-  - JP PERCENT
+  - '#'
+  - $
+  - '%'
   - ^
   - '&'
   - '*'
