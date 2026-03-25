@@ -170,7 +170,6 @@
 &mt LEFT_SHIFT Z  &kp X           &kp C         &kp V            &kp B                   &kp JP_COLON                          &kp RIGHT_BRACKET  &kp N                   &kp M   &kp JP_COMMA  &kp JP_DOT  &kp JP_SLASH
 &kp LCTRL         &kp LEFT_SHIFT  &kp LEFT_ALT  &st 1 JP_ZENHAN  &lt_to_layer_0 2 SPACE  &mt LG(LS(S)) ESCAPE                  &kp BACKSPACE      &lt_to_layer_0 3 ENTER                                    &lt_to_layer_0 1 DELETE
             >;
-            sensor-bindings = <&none>;
         };
 
 
@@ -181,7 +180,6 @@
 &kp F1            &kp F2             &kp F3        &kp F4         &kp F5             &kp F11                  &kp F12  &kp F6            &kp F7        &kp F8         &kp F9           &kp F10
 &kp LEFT_CONTROL  &kp LEFT_SHIFT     &kp LEFT_ALT  &trans         &trans             &trans                   &trans   &trans                                                          &trans
             >;
-            sensor-bindings = <&none>;
         };
 
 
@@ -192,7 +190,6 @@
 &kp LEFT_SHIFT  &trans          &trans           &trans           &trans        &trans                  &trans  &trans        &kp JP_COLON   &kp JP_QUOTE   &kp JP_DQUOTE  &kp JP_YEN
 &kp LCTRL       &kp LEFT_SHIFT  &kp LEFT_ALT     &trans           &trans        &trans                  &trans  &trans                                                     &trans
             >;
-            sensor-bindings = <&none>;
         };
 
 
@@ -203,7 +200,6 @@
 &trans  &kp LEFT_SHIFT      &trans           &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &trans                  &trans  &trans  &kp DEL   &kp PG_UP       &kp PG_DN    &trans
 &trans  &trans              &trans           &trans            &trans             &trans                  &trans  &trans                                         &trans
             >;
-            sensor-bindings = <&none>;
         };
 
 
