@@ -38,15 +38,15 @@ layers:
   - LCTRL
   - LEFT SHIFT
   - LEFT ALT
-  - {t: '`', h: FUNCTION}
+  - '`'
   - {t: '&to_layer_0 SPACE', h: NUM}
   - {t: ESCAPE, h: Gui+Sft+S}
-  - BACKSPACE
+  - {t: BACKSPACE, h: SCROLL}
   - {t: '&to_layer_0 ENTER', h: ARROW}
   - {t: '&to_layer_0 DELETE', h: FUNCTION}
   FUNCTION:
   - '!'
-  - '"'
+  - '@'
   - '#'
   - $
   - '%'
@@ -82,12 +82,12 @@ layers:
   - LEFT CONTROL
   - LEFT SHIFT
   - LEFT ALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   NUM:
   - '1'
   - '2'
@@ -214,10 +214,10 @@ layers:
   - LCTRL
   - LEFT SHIFT
   - LEFT ALT
-  - SCROLL
+  - {t: ▽, type: trans}
   - {t: '&to_layer_0 SPACE', h: NUM}
   - {t: ESCAPE, h: Gui+Sft+S}
-  - {t: ▽, type: trans}
+  - SCROLL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SCROLL:
@@ -258,10 +258,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '6':
