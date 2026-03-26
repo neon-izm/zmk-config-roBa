@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - LEFT WIN
+  - {t: LEFT WIN, h: FUNCTION}
   - '-'
   - H
   - J
@@ -40,7 +40,7 @@ layers:
   - LEFT ALT
   - '`'
   - {t: '&to_layer_0 SPACE', h: NUM}
-  - {t: ESCAPE, h: Gui+Sft+S}
+  - ESCAPE
   - BACKSPACE
   - {t: '&to_layer_0 ENTER', h: ARROW}
   - {t: '&to_layer_0 DELETE', h: FUNCTION}
@@ -60,7 +60,7 @@ layers:
   - '0x89'
   - '['
   - Sft+0x87
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - '&mkp MB3'
   - '&mkp MB1'
@@ -87,7 +87,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   NUM:
   - '1'
   - '2'
@@ -141,7 +141,7 @@ layers:
   - {t: ▽, type: trans}
   - HOME
   - UP ARROW
-  - Ctl+END
+  - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+LEFT ARROW
