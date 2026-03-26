@@ -44,7 +44,7 @@
 };
 
 &trackball {
-    automouse-layer = <4>;
+    // automouse-layer = <4>;
 
     scroll-layers = <5>;
 
@@ -165,10 +165,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W           &kp E         &kp R            &kp T                                                                            &kp Y                   &kp U   &kp I         &kp O       &kp P
+&kp Q             &kp W           &kp E         &kp R            &kp T                                                                            &kp Y                   &kp U   &kp I         &kp O       &st 5 P
 &kp A             &kp S           &kp D         &kp F            &kp G                   &kp LEFT_WIN                          &kp MINUS          &kp H                   &kp J   &kp K         &kp L       &kp JP_SEMICOLON
 &mt LEFT_SHIFT Z  &kp X           &kp C         &kp V            &kp B                   &kp JP_COLON                          &kp RIGHT_BRACKET  &kp N                   &kp M   &kp JP_COMMA  &kp JP_DOT  &kp JP_SLASH
-&kp LCTRL         &kp LEFT_SHIFT  &kp LEFT_ALT  &kp JP_ZENHAN    &lt_to_layer_0 2 SPACE  &mt LG(LS(S)) ESCAPE                  &st 5 BACKSPACE    &lt_to_layer_0 3 ENTER                                    &lt_to_layer_0 1 DELETE
+&kp LCTRL         &kp LEFT_SHIFT  &kp LEFT_ALT  &kp JP_ZENHAN    &lt_to_layer_0 2 SPACE  &mt LG(LS(S)) ESCAPE                  &kp BACKSPACE      &lt_to_layer_0 3 ENTER                                    &lt_to_layer_0 1 DELETE
             >;
         };
 
@@ -226,7 +226,7 @@
 &trans  &trans        &trans        &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
-&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
+&to 0   &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
             >;
         };
     };
