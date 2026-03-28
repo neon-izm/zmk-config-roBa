@@ -122,7 +122,7 @@ Ctrl  ⇧   Alt  —    —    —    —    —                   —
 カーソル移動と Windows ウィンドウ操作のショートカットを配置したレイヤーです。
 
 ```
- —  C+⇧+Tab PrtSc  C+Tab  —          —   Home   ↑   C+End  —
+ —  C+⇧+Tab PrtSc  C+Tab  —          —   Home   ↑   End  —
  —   W+←    W+→   CW+←  CW+→  [  ][  ]  —    ←    ↓    →    —
  —    ⇧      —   S+W+←  S+W+→  [  ][  ]  —   Del  PgUp PgDn  —
  —    —      —    —      —      —    —    —                   —
@@ -145,11 +145,7 @@ Ctrl  ⇧   Alt  —    —    —    —    —                   —
 ---
 
 ### Layer 4：MOUSE レイヤー（トラックボール移動時に自動遷移）
-
-`automouse-layer = <1>` は現在 FUNCTION (layer 1) を指しています。トラックボールを動かすと自動的に FUNCTION レイヤーへ遷移し、マウスボタン（MB1〜MB3）を右手でそのまま操作できます。動作を停止するとベースレイヤーに自動復帰します。
-
-> **注意**: automouse の遷移先は layer 1 (FUNCTION) です。MOUSE (layer 4) 自体には独自のキー定義がありますが、現在は automouse 経由では使用されません。
-
+未使用
 ---
 
 ### Layer 5：SCROLL レイヤー（P 長押しで起動）
