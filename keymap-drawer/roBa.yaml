@@ -60,8 +60,8 @@ layers:
   - '0x89'
   - '['
   - Sft+0x87
-  - {type: held}
-  - {t: ▽, type: trans}
+  - {t: default, h: toggle, type: held}
+  - {t: default, h: toggle}
   - '&mkp MB3'
   - '&mkp MB1'
   - '&mkp MB2'
