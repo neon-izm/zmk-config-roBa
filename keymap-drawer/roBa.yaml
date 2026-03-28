@@ -317,7 +317,7 @@ combos:
   k: '-'
 - p: [33, 32]
   k: Sft+0x87
-- p: [37, 38]
+- p: [41, 42]
   k: {t: '6', h: toggle}
 - p: [0, 1]
   k: ESCAPE
