@@ -87,7 +87,7 @@
 
         layer_to_6 {
             bindings = <&to 6>;
-            key-positions = <37 38>;
+            key-positions = <41 42>;
         };
 
         Escape {
