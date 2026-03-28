@@ -30,10 +30,10 @@ roBa は左右分割型の自作キーボードで、右手側にトラックボ
 | # | 名前 | 起動方法 |
 |---|------|---------|
 | 0 | default | ベースレイヤー |
-| 1 | FUNCTION | Delete 長押し |
+| 1 | FUNCTION | Delete 長押し　トラックボール移動時に自動遷移（automouse） |
 | 2 | NUM | Space 長押し |
 | 3 | ARROW | Enter 長押し |
-| 4 | MOUSE | トラックボール移動時に自動遷移（automouse） |
+| 4 | MOUSE |  なし |
 | 5 | SCROLL | P 長押し |
 | 6 | BT | Enter+Delete 同時押し |
 
@@ -64,14 +64,14 @@ Ctrl  ⇧   Alt [半全]  [Spc] [Esc]  BS  [↵]            [Del]
 |------|--------|---------|
 | 半/全 | 半角/全角切替 | — |
 | Space | スペース | NUM レイヤー（数字・記号） |
-| Esc | Escape | — |
+| Esc | Escape | FUNCTION レイヤー（記号・Fn・マウス） |
 | BS | Backspace | — |
 | Enter | Enter | ARROW レイヤー（カーソル移動・ウィンドウ操作） |
 | Del | Delete | FUNCTION レイヤー（記号・Fn・マウス） |
 
 ---
 
-### Layer 1：FUNCTION レイヤー（Delete 長押しで起動）
+### Layer 1：FUNCTION レイヤー（Delete 長押し / Esc 長押しで起動）
 
 プログラミング記号・ファンクションキー・マウスボタンをまとめた多機能レイヤーです。
 
