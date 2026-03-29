@@ -1,0 +1,16 @@
+draw_config:
+  zmk_keycode_map:
+    # JP キーボード配列補正（JP_* マクロのプリプロセッサ展開後のキーコードを正しい文字で表示）
+    GRAVE: "半/全"         # JP_ZENHAN
+    AT: '"'                # JP_DQUOTE
+    CARET: "&"             # JP_AMPERSAND
+    AMPERSAND: "'"         # JP_QUOTE
+    EQUAL: "^"             # JP_CARET
+    LEFT_BRACKET: "@"      # JP_AT
+    SINGLE_QUOTE: ":"      # JP_COLON
+    RIGHT_BRACKET: "["     # JP_LBRACKET
+    BACKSLASH: "]"         # JP_RBRACKET
+    ASTERISK: "("          # JP_LPAREN
+    LEFT_PARENTHESIS: ")"  # JP_RPAREN
+    RIGHT_BRACE: "{"       # JP_LBRACE
+    PIPE: "}"              # JP_RBRACE
