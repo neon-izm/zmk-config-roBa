@@ -1,4 +1,4 @@
-draw_config:
+parse_config:
   zmk_keycode_map:
     # JP キーボード配列補正（JP_* マクロのプリプロセッサ展開後のキーコードを正しい文字で表示）
     GRAVE: "半/全"         # JP_ZENHAN
