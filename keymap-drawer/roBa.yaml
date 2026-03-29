@@ -17,56 +17,56 @@ layers:
   - F
   - G
   - {t: LEFT WIN, h: FUNCTION}
-  - '-'
+  - MINUS
   - H
   - J
   - K
   - L
-  - ;
+  - SEMICOLON
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
   - B
-  - ''''
-  - ']'
+  - ':'
+  - '['
   - N
   - M
-  - ','
-  - .
-  - /
+  - COMMA
+  - PERIOD
+  - SLASH
   - LCTRL
   - LEFT SHIFT
   - LEFT ALT
-  - '`'
+  - 半/全
   - {t: '&to_layer_0 SPACE', h: NUM}
   - {t: ESCAPE, h: FUNCTION}
   - BACKSPACE
   - {t: '&to_layer_0 ENTER', h: ARROW}
   - {t: '&to_layer_0 DELETE', h: FUNCTION}
   FUNCTION:
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
+  - EXCL
+  - '"'
+  - HASH
+  - DOLLAR
+  - PERCENT
   - '&'
-  - '*'
+  - ''''
   - (
+  - )
   - Sft+0x89
-  - '-'
-  - '='
+  - MINUS
+  - ^
   - '0x89'
-  - '['
+  - '@'
   - Sft+0x87
   - {t: default, h: toggle, type: held}
   - {t: default, h: toggle}
   - '&mkp MB3'
   - '&mkp MB1'
   - '&mkp MB2'
+  - '['
   - ']'
-  - \
   - F1
   - F2
   - F3
@@ -101,14 +101,14 @@ layers:
   - '0'
   - TAB
   - {t: ▽, type: trans}
+  - '['
   - ']'
-  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '*'
   - (
+  - )
   - {t: ▽, type: trans}
   - Sft+0x89
   - LEFT SHIFT
@@ -119,9 +119,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ':'
   - ''''
-  - '&'
-  - '@'
+  - '"'
   - '0x89'
   - LCTRL
   - LEFT SHIFT
@@ -314,7 +314,7 @@ combos:
 - p: [11, 12]
   k: Sft+TAB
 - p: [8, 9]
-  k: '-'
+  k: MINUS
 - p: [33, 32]
   k: Sft+0x87
 - p: [41, 42]
