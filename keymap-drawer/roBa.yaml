@@ -107,16 +107,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - (
-  - )
   - {t: ▽, type: trans}
+  - '{'
+  - '}'
   - Sft+0x89
   - LEFT SHIFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT BRACE
+  - PLUS
+  - UNDER
+  - COLON
+  - DOUBLE QUOTES
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ':'
